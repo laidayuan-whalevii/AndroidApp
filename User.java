@@ -52,9 +52,7 @@ public class User implements Serializable, InsertData {
 
         User user = (User) o;
 
-        if (userId != null ? !userId.equals(user.userId) : user.userId != null) {
-            return false;
-        }
+        if (userId != null ? !userId.equals(user.userId) : user.userId != null) {return false;}
         if (userName != null ? !userName.equals(user.userName) : user.userName != null) {
             return false;
         }
