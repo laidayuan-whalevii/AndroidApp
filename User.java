@@ -9,9 +9,11 @@ import com.bobomee.android.mentions.model.FormatRange;
 import java.io.Serializable;
 
 
-public class User implements Serializable, InsertData {
+public class User implements Serializable, InsertData 
+{
 
-    private final CharSequence userId;
+    private final static CharSequence userId;
+
     private final CharSequence userName;
     private CharSequence userSex;
     private final String mentionFormat;
