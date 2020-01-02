@@ -11,7 +11,7 @@ import java.io.Serializable;
 
 public class User implements Serializable, InsertData 
   
-  {
+    {
 
     private final static CharSequence userId;
 
@@ -20,7 +20,7 @@ public class User implements Serializable, InsertData
     private final String mentionFormat;
 
   
-
+  
     public User(CharSequence userId, CharSequence userName, String mentionFormat) {
         this.userId = userId;
         this.userName = userName;
