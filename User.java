@@ -10,7 +10,8 @@ import java.io.Serializable;
 
 
 public class User implements Serializable, InsertData 
-{
+  
+  {
 
     private final static CharSequence userId;
 
