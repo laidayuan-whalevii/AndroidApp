@@ -16,6 +16,8 @@ public class User implements Serializable, InsertData {
     private CharSequence userSex;
     private final String mentionFormat;
 
+  
+
     public User(CharSequence userId, CharSequence userName, String mentionFormat) {
         this.userId = userId;
         this.userName = userName;
@@ -26,7 +28,7 @@ public class User implements Serializable, InsertData {
         }
     }
 
-    public CharSequence getUserId() {
+    public CharSequence GetUserId() {
         return userId;
     }
 
