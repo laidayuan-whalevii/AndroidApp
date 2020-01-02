@@ -2,16 +2,10 @@ package com.bobomee.android.mentions.edit;
 
 import android.graphics.Color;
 
-import android.text.TextUtils;
-import com.bobomee.android.mentions.edit.listener.InsertData;
-import com.bobomee.android.mentions.model.FormatRange;
-
-import java.io.Serializable;
+import android.text.TextUtils;import com.bobomee.android.mentions.edit.listener.InsertData;import com.bobomee.android.mentions.model.FormatRange;import java.io.Serializable;
 
 
-public class User implements Serializable, InsertData 
-  
-    {
+public class User implements Serializable, InsertData {
 
     private final static CharSequence userId;
 
