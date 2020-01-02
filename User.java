@@ -25,7 +25,7 @@ public class User implements Serializable, InsertData {
         }
     }
 
-    public CharSequence GetUserId() {
+    public CharSequence GEtUserId() {
         return userId;
     }
 
