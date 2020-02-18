@@ -36,7 +36,7 @@ public interface ITrace {
     @interface StartType {
     }
 
-    ITrace appStart  ();
+    ITrace AppStart();
 
     ITrace appStart(@StartType int startType);
 
