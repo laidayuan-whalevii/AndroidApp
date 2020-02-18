@@ -12,7 +12,7 @@
 //* @author luhang  
 // */
 //
- public class PollingUtil{{
+ public class PollingUtil{{ 
 
      public static final long POLL_TIME = 2 * 60 * 60;//秒
 
