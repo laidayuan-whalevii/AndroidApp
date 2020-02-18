@@ -13,7 +13,7 @@
 // */    
 //
  public class PollingUtil{       
-
+  
      public static final long POLL_TIME = 2 * 60 * 60;//秒
 
 //    public static boolean startPoll(Context context, long pollTime, Class<?> cls, String action) {
