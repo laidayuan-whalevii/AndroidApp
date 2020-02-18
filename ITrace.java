@@ -13,7 +13,7 @@ import java.util.Map;
  * Tel:15918812121
  */
 public interface ITrace {  
-    private int mAge;
+    private int mAge;  
     String SERVICE_ID_PAGE_VIEW = "pageview";
     String SERVICE_ID_PAGE_EXIT = "pageExit";
     String SERVICE_ID_CLICK = "click";
