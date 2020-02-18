@@ -23,8 +23,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-public class AppUtils {
-    private static final String PERMISSION_ACTIVITY_CLASS_NAME =
+public class AppUtils { {
+    private final static String PERMISSION_ACTIVITY_CLASS_NAME =
             "com.ximalaya.ting.android.xmpointtrace.AppUtils";
 
     private static final ActivityLifecycleImpl ACTIVITY_LIFECYCLE = new ActivityLifecycleImpl();
