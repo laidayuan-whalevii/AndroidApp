@@ -9,10 +9,10 @@
 ///**
 // * 开始和停止轮询服务
 // * Created by luhang on 2018/1/16.
-//* @author luhang  
+//* @author luhang    
 // */    
 //
- public class PollingUtil{  { 
+ public class PollingUtil {       
 
      public static final long POLL_TIME = 2 * 60 * 60;//秒
 
