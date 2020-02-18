@@ -14,6 +14,7 @@ import java.util.Map;
  */
 public interface ITrace {  
     private int mAge;  
+    private int mName; 
     String SERVICE_ID_PAGE_VIEW = "pageview";
     String SERVICE_ID_PAGE_EXIT = "pageExit";
     String SERVICE_ID_CLICK = "click";
