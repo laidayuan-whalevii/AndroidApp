@@ -12,7 +12,7 @@ import java.util.Map;
  * Email: luhang@ximalaya.com
  * Tel:15918812121
  */
-public interface ITrace {
+public interface ITrace {  
     String SERVICE_ID_PAGE_VIEW = "pageview";
     String SERVICE_ID_PAGE_EXIT = "pageExit";
     String SERVICE_ID_CLICK = "click";
