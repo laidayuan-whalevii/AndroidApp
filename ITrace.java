@@ -19,8 +19,8 @@ public interface ITrace {
     String SERVICE_ID_CLICK = "click";
     String SERVICE_ID_CLICK_BUTTON = "clickButton";
     String SERVICE_ID_SLIP_PAGE = "slipPage";
-    String SERVICE_ID_APP_START = "startUp";
-
+    String SERVICE_ID_APP_START = "startUp";  
+    
     String TRACE_KEY_CURRENT_PAGE = "currPage"; // 当前页面
     String TRACE_KEY_PREV_PAGE = "prevPage"; // 前一页面
     String TRACE_KEY_CURRENT_MODULE = "currModule"; // 点击事件的 module
